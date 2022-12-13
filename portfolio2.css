@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  background-color: #101010;
+}
+
+/* nav */
+
+h2 {
+  color: #8ed4db;
+}
+
+h2 span {
+  color: rgb(221, 90, 221);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+
+nav a {
+  width: 25%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+nav ul li a {
+  color: #eaf4f5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+hr {
+  height: 40px;
+  width: 23%;
+  margin: -43px -20px;
+  background: linear-gradient(to right, #8ed4db 0%, #ff3399 100%);
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+.two:hover ~ hr {
+  margin-left: 16.5%;
+}
+
+.three:hover ~ hr {
+  margin-left: 37.8%;
+}
+
+.four:hover ~ hr {
+  margin-left: 57%;
+}
+
+.five:hover ~ hr {
+  margin-left: 76.5%;
+}
+
+nav button {
+  border: none;
+  background: #8ed4db;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+  float: center;
+}
+
+nav button:hover {
+  transform: scale(1.3);
+  border: 2px solid #8ed4db;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+/* p1 */
+.p1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.p1 p {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.p1 h1 {
+  color: #8ed4db;
+}
+
+.p1 h4 {
+  color: white;
+}
+
+/* ABOUT */
+
+.about {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about p {
+  padding-top: 10px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.about h1 {
+  color: #8ed4db;
+}
+
+.about button {
+  border: none;
+  background: #8ed4db;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+  float: center;
+  left: 623px;
+}
+
+.about button:hover {
+  transform: scale(1.3);
+  border: 2px solid #8ed4db;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+/*SEARCH*/
+
+.search p {
+  color: white;
+}
+
+.search input {
+  width: 350px;
+
+  outline: none;
+  height: 50px;
+  border-radius: 15px;
+  border: 2px solid #8ed4db;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.search {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.search button {
+  border: none;
+  background: #8ed4db;
+  padding: 12px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-top: 30px;
+  margin-left:10px ;
+}
+
+.search button:hover {
+  transform: scale(1.3);
+  border: 2px solid #8ed4db;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+/* SERVICE */
+
+.service {
+  background: #101010;
+  width: 100%;
+}
+
+.title h2 {
+  color: #8ed4db;
+  font-size: 75px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: rgba(255, 248, 255, 0.8);
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .button {
+  background-color: #8ed4db;
+  color: black;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.card .button:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid #8ed4db;
+  cursor: pointer;
+}
+
+/*   HIRE */
+
+.hire {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.hire h2 {
+  color: white;
+
+  margin-bottom: 20px;
+}
+
+.hire button {
+  background-color: #8ed4db;
+  color: black;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+  font-size: 15px;
+}
+
+.hire button:hover {
+  transform: scale(1.3);
+  border: 2px solid #8ed4db;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*     MEDIA */
+
+@media (max-width: 414px) {
+  nav {
+    overflow: hidden;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    transition: none;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  
+
+  nav a {
+    width: 15%;
+  }
+
+  nav ul li {
+    padding: 5px;
+  }
+
+  nav button {
+    font-size: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+  }
+
+  body {
+    width: 100%;
+    height: auto;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .search p {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .search input {
+  
+    width: 200px;
+    height: 40px;
+
+
+  }
+
+  .search button {
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 15px;
+  }
+
+  .p1 p {
+    font-size: 11px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .p1 h1 {
+    font-size: 15px;
+  }
+
+  .p1 h4 {
+    font-size: 11px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about {
+  
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  
+
+
+  }
+
+  .about p {
+    font-size: 12px;
+    padding-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .about button {
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 15px;
+  }
+
+  .service h2 {
+    font-size: 20px;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+
+  .card button {
+    min-width: 30px;
+    min-height: 30px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+  
+
+  .hire h2 {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .hire button {
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 15px;
+ 
+  }
+
+  footer {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+
+         /*  MEDIA 1024 */
+
+@media (max-width: 1024px) {
+  hr {
+    display: none;
+  }
+}
+
+
+          
+      /*     MEDIA 540    */
+
+@media (width: 540px) {
+  .box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+}
+
+
+
+                     /*  MEDIA 1280 */
+
+@media (width:768px), (max-width: 1280px) {
+  .box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+}
