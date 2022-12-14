@@ -447,7 +447,7 @@ footer {
 }
 
 
-         /*  MEDIA 1024 */
+                  /*  MEDIA 1024 */
 
 @media (max-width: 1024px) {
   hr {
@@ -457,7 +457,7 @@ footer {
 
 
           
-      /*     MEDIA 540    */
+               /*     MEDIA 540    */
 
 @media (width: 540px) {
   .box {
